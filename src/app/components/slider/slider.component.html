@@ -1,8 +1,4 @@
-<swiper-container
-  class="container my-swiper"
-  navigation="true"
-  slidesPerView="4"
->
+<swiper-container class="container" navigation="true" slidesPerView="4">
   <swiper-slide class="slide-custom" *ngFor="let option of options">
     <img [src]="'./assets/svg/' + option.icon" alt="" />{{ option.label }}
   </swiper-slide>
