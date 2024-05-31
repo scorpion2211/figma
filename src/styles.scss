@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Manrope";
+  src: url("./assets/font/Manrope-VariableFont_wght.ttf") format("opentype");
+}
+
+* {
+  font-family: "Manrope", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+::ng-deep .swiper-button-next {
+  background-color: #ff0000 !important; // Cambiar el color de fondo
+  width: 40px !important; // Ajustar el ancho del botón
+  height: 40px !important; // Ajustar la altura del botón
+  border-radius: 50% !important; // Hacer que el botón sea circular
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+
+  // Ajustar el estilo del icono SVG dentro del botón
+  svg {
+    fill: #ff0000 !important; // Cambiar el color del icono a blanco
+    width: 20px !important; // Ajustar el ancho del icono
+    height: 20px !important; // Ajustar la altura del icono
+  }
+}

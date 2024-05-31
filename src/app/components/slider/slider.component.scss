@@ -1,0 +1,18 @@
+.container {
+  height: 100%;
+  max-width: 1500px;
+  margin: auto;
+}
+
+.slide-custom {
+  width: 375px;
+  color: white;
+  height: 100%;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    margin-right: 8px;
+  }
+}
